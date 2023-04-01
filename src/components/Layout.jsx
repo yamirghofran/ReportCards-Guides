@@ -20,7 +20,7 @@ const navigation = [
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Subjects',
     links: [
       { title: 'Understanding caching', href: '/docs/understanding-caching' },
       {
@@ -36,7 +36,7 @@ const navigation = [
     ],
   },
   {
-    title: 'Advanced guides',
+    title: 'Classes',
     links: [
       { title: 'Writing plugins', href: '/docs/writing-plugins' },
       { title: 'Neuralink integration', href: '/docs/neuralink-integration' },
@@ -50,7 +50,7 @@ const navigation = [
     ],
   },
   {
-    title: 'API reference',
+    title: 'Report Cards',
     links: [
       { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict' },
       { title: 'CacheAdvance.flush()', href: '/docs/cacheadvance-flush' },
@@ -59,7 +59,7 @@ const navigation = [
     ],
   },
   {
-    title: 'Contributing',
+    title: 'Grading',
     links: [
       { title: 'How to contribute', href: '/docs/how-to-contribute' },
       { title: 'Architecture guide', href: '/docs/architecture-guide' },
@@ -190,7 +190,7 @@ export function Layout({ children, title, tableOfContents }) {
     <>
       <Header navigation={navigation} />
 
-      {isHomePage && <Hero />}
+      {/* {isHomePage && <Hero />} */}
 
       <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
