@@ -9,7 +9,7 @@ The first step when starting to use ReportCards.ai is creating and configuring t
 
 ## Creating a New Subject
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+You can create a new subject by navigating to the "Subjects" tab in the sidebar on the left, and clicking the "New Subject" button.
 
 ### Name
 
