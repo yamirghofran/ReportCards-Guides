@@ -1,9 +1,9 @@
 ---
 title: Classes
-description: Create and configure the subjects you teach.
+description: Create and configure the classes you teach.
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
+Learn how to create, edit, and add students to your classes in ReportCards.ai
 
 ---
 

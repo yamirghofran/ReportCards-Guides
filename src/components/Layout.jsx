@@ -39,8 +39,9 @@ const navigation = [
     title: 'Updates',
     links: [
       { title: 'New Feature: AI Report Card Comments', href: '/docs/nf-ai-comments' },
-      { title: 'New Feature: AI Comments for Individual Assignments', href: '/docs/nf-ai-params'},
-      { title: 'New Feature: Change Profile Name', href: '/docs/nf-update-name' }
+      { title: 'New Feature - Quantitative Criterion Parameters + A.I.', href: '/docs/nf-ai-params'},
+      { title: 'New Feature: Change Profile Name', href: '/docs/nf-update-name' },
+      { title: 'Bug Fix: Fix initial login error', href: '/docs/bf-initial-login-error'}
     ]
   },
   /* {
