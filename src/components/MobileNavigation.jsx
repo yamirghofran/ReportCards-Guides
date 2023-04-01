@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/router'
 import { Dialog } from '@headlessui/react'
 
-import { Logomark } from '@/components/Logo'
+import Logomark from 'public/blue-ai.png';
 import { Navigation } from '@/components/Navigation'
 
 function MenuIcon(props) {
@@ -82,7 +83,9 @@ export function MobileNavigation({ navigation }) {
               <CloseIcon className="h-6 w-6 stroke-slate-500" />
             </button>
             <Link href="/" className="ml-6" aria-label="Home page">
-              <Logomark className="h-9 w-9" />
+              <div>
+                <Image src={Logomark} className='w-9 h-9' />
+              </div>
             </Link>
           </div>
           <Navigation navigation={navigation} className="mt-5 px-1" />

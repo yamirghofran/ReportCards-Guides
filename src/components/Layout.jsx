@@ -1,10 +1,12 @@
 import { useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 import clsx from 'clsx'
 
 import { Hero } from '@/components/Hero'
-import { Logo, Logomark } from '@/components/Logo'
+import Logomark from 'public/blue-ai.png';
+import Logo from 'public/blue-ReportCardsai.png';
 import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
@@ -16,7 +18,6 @@ const navigation = [
     title: 'Introduction',
     links: [
       { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
     ],
   },
   {
@@ -25,15 +26,22 @@ const navigation = [
       { title: 'Subjects', href: '/docs/subjects' },
       {
         title: 'Classes',
-        href: '/docs/predicting-user-behavior',
+        href: '/docs/classes',
       },
-      { title: 'Report Cards', href: '/docs/basics-of-time-travel' },
+      { title: 'Report Cards', href: '/docs/report-cards' },
       {
         title: 'Grading',
-        href: '/docs/introduction-to-string-theory',
+        href: '/docs/grading',
       },
-      { title: 'The butterfly effect', href: '/docs/the-butterfly-effect' },
     ],
+  },
+  {
+    title: 'Updates',
+    links: [
+      { title: 'New Feature: AI Report Card Comments', href: '/docs/nf-ai-comments' },
+      { title: 'New Feature: AI Comments for Individual Assignments', href: '/docs/nf-ai-params'},
+      { title: 'New Feature: Change Profile Name', href: '/docs/nf-update-name' }
+    ]
   },
   /* {
     title: 'Classes',
@@ -103,9 +111,13 @@ function Header({ navigation }) {
         <MobileNavigation navigation={navigation} />
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
-        <Link href="/" aria-label="Home page">
-          <Logomark className="h-9 w-9 lg:hidden" />
-          <Logo className="hidden h-9 w-auto fill-slate-700 dark:fill-sky-100 lg:block" />
+        <Link href="https://reportcards.ai" aria-label="Home page">
+          <div className="h-9 w-9 lg:hidden">
+            <Image src={Logomark} />
+          </div>
+          <div className='hidden lg:block'>
+            <Image src={Logo} className='h-9 w-auto' />
+          </div>
         </Link>
       </div>
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">

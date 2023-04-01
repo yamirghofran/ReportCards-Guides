@@ -1,24 +1,24 @@
 ---
 title: Getting started
-pageTitle: CacheAdvance - Never miss the cache again.
-description: Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.
+pageTitle: ReportCards.ai - Getting Started.
+description: Learn how you can use ReportCards.ai to grade and provide feedback to your students faster and easier than ever with the help of artificial intelligence.
 ---
 
-Learn how to get CacheAdvance set up in your project in under thirty minutes or it's free. {% .lead %}
+Learn how you can use ReportCards.ai to grade and provide feedback to your students faster and easier than ever with the help of artificial intelligence. {% .lead %}
 
 {% quick-links %}
 
-{% quick-link title="Installation" icon="installation" href="/" description="Step-by-step guides to setting up your system and installing the library." /%}
+{% quick-link title="Subjects" icon="installation" href="/docs/subjects" description="Create and configure the subjects you teach." /%}
 
-{% quick-link title="Architecture guide" icon="presets" href="/" description="Learn how the internals work and contribute." /%}
+{% quick-link title="Classes" icon="presets" href="/docs/classes" description="Create and set up all the classes that you teach." /%}
 
-{% quick-link title="Plugins" icon="plugins" href="/" description="Extend the library with third-party plugins or write your own." /%}
+{% quick-link title="Report Cards" icon="plugins" href="/docs/report-cards" description="Report cards that are emailed to your students." /%}
 
-{% quick-link title="API reference" icon="theming" href="/" description="Learn to easily customize and modify your app's visual design to fit your brand." /%}
+{% quick-link title="Grading Process" icon="theming" href="/docs/grading" description="Learn the smooth and intuitive grading process." /%}
 
 {% /quick-links %}
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste.
+You can use this page to learn everything that you can do with ReportCards.ai that will help you grade and write better feedback for your students faster and more easily with the help of artificial intelligence.
 
 ---
 
