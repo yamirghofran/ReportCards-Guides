@@ -11,8 +11,6 @@ The first step when starting to use ReportCards.ai is creating and configuring t
 
 Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
 
-{% video videoId="eVVOGdnKLb4" /%}
-
 ### Et pariatur ab quas
 
 Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
