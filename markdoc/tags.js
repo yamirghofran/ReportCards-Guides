@@ -1,5 +1,6 @@
-import { Callout } from '@/components/Callout'
-import { QuickLink, QuickLinks } from '@/components/QuickLinks'
+import { Callout } from '@/components/Callout';
+import { QuickLink, QuickLinks } from '@/components/QuickLinks';
+import YoutubeVideo from '@/components/YoutubeVideo';
 
 const tags = {
   callout: {
@@ -13,6 +14,12 @@ const tags = {
       },
     },
     render: Callout,
+  },
+  video: {
+    attributes: {
+      videoId: { type: String },
+    },
+    render: YoutubeVideo,
   },
   figure: {
     selfClosing: true,

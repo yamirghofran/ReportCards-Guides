@@ -20,22 +20,22 @@ const navigation = [
     ],
   },
   {
-    title: 'Subjects',
+    title: 'Basics Tutorials',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
+      { title: 'Subjects', href: '/docs/subjects' },
       {
-        title: 'Predicting user behavior',
+        title: 'Classes',
         href: '/docs/predicting-user-behavior',
       },
-      { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
+      { title: 'Report Cards', href: '/docs/basics-of-time-travel' },
       {
-        title: 'Introduction to string theory',
+        title: 'Grading',
         href: '/docs/introduction-to-string-theory',
       },
       { title: 'The butterfly effect', href: '/docs/the-butterfly-effect' },
     ],
   },
-  {
+  /* {
     title: 'Classes',
     links: [
       { title: 'Writing plugins', href: '/docs/writing-plugins' },
@@ -65,7 +65,7 @@ const navigation = [
       { title: 'Architecture guide', href: '/docs/architecture-guide' },
       { title: 'Design principles', href: '/docs/design-principles' },
     ],
-  },
+  }, */
 ]
 
 function GitHubIcon(props) {
@@ -186,10 +186,9 @@ export function Layout({ children, title, tableOfContents }) {
     return section.children.findIndex(isActive) > -1
   }
 
-  return (
+  return (    
     <>
       <Header navigation={navigation} />
-
       {/* {isHomePage && <Hero />} */}
 
       <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
