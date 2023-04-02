@@ -44,7 +44,7 @@ const navigation = [
       { title: 'Bug Fix: Fix initial login error', href: '/docs/bf-initial-login-error'}
     ]
   },
-  {
+  /* {
     title: 'Frequently Asked Questions',
     links: [
       { title: 'Writing plugins', href: '/docs/writing-plugins' },
@@ -58,7 +58,7 @@ const navigation = [
       },
     ],
   },
-  /* {
+  {
     title: 'Report Cards',
     links: [
       { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict' },
