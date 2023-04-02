@@ -68,6 +68,10 @@ export default function App({ Component, pageProps }) {
         {description && <meta name="description" content={description} />}
       </Head>
       <Layout title={title} tableOfContents={tableOfContents}>
+      <Script type='text/javascript' src='/linkedin-tag.js' async />
+      <Script type='text/javascript' src='/linkedin-tag-1.js' async />
+      <Script type="text/javascript" src="/twitter-pixel.js" async />
+      <Script type="text/javascript" src="/crisp-script.js" async />
         <Component {...pageProps} />
       </Layout>
     </>
