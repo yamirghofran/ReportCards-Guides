@@ -8,13 +8,13 @@ Learn how you can use ReportCards.ai to grade and provide feedback to your stude
 
 {% quick-links %}
 
-{% quick-link title="Subjects" icon="installation" href="/docs/subjects" description="Create and configure the subjects you teach." /%}
+{% quick-link title="Subjects" href="/docs/subjects" description="Create and configure the subjects you teach." /%}
 
-{% quick-link title="Classes" icon="presets" href="/docs/classes" description="Create and set up all the classes that you teach." /%}
+{% quick-link title="Classes" href="/docs/classes" description="Create and set up all the classes that you teach." /%}
 
-{% quick-link title="Report Cards" icon="plugins" href="/docs/report-cards" description="Report cards that are emailed to your students." /%}
+{% quick-link title="Report Cards" href="/docs/report-cards" description="Report cards that are emailed to your students." /%}
 
-{% quick-link title="Grading Process" icon="theming" href="/docs/grading" description="Learn the smooth and intuitive grading process." /%}
+{% quick-link title="Grading Process" href="/docs/grading" description="Learn the smooth and intuitive grading process." /%}
 
 {% /quick-links %}
 
@@ -22,52 +22,30 @@ You can use this page to learn everything that you can do with ReportCards.ai th
 
 ---
 
-## Quick start
+## Overview
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+Here, you will read an overview about how the app works in general.
 
-### Installing dependencies
+### Order of Operations
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+1. The first thing you have to do after creating an account and logging in to ReportCards.ai is creating the subjects that you teach. When creating each subject, you have to also create the criteria that you will use to grade and provide feedback to your students in that subject. (More info about this in the Subjects section of this guide).
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+2. After creating your subjects and adding the criteria for each of them, it's time to create the classes that you teach. To create a class, you have to select which subject you teach to that class. You can teach a different subject to the same class, so you can have 2 classes with the same name but a different subject. This will determine the criteria by which you later grade that class.
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+3. After creating your classes, it's time to add students to them. You can either create students manually one by one, or import all of your students for a class via uploading a CSV file that contains the students' first name, last name, and email address. (More info about this in the Classes section of this guide).
 
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+4.  After adding all the students to your class(es), you can create your first report card for each class. You can name the report card anything you want (e.g. Semester 1 2023 or History Test 1 if you want to grade an individual assignment or exam).
 
-### Configuring the library
+5. After creating the report card, it's time to grade the students in that report card. (More info in the Grading section of this guide.)
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+6. Finally, after grading all the students in the report card, you can email the report cards to all students in that class.
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+## Different Ways to use ReportCards.ai
 
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+You can use ReportCards.ai in any way you wish any time you have to provide some feedback to your students. However, there are 2 main ways teachers use ReportCards.ai: Report Cards and Individual Assignments.
 
----
-
-## Basic usage
-
-Praesentium laudantium magni. Consequatur reiciendis aliquid nihil iusto ut in et. Quisquam ut et aliquid occaecati. Culpa veniam aut et voluptates amet perspiciatis. Qui exercitationem in qui. Vel qui dignissimos sit quae distinctio.
-
-### Your first cache
+### Report Cards
 
 Minima vel non iste debitis. Consequatur repudiandae et quod accusamus sit molestias consequatur aperiam. Et sequi ipsa eum voluptatibus ipsam. Et quisquam ut.
 
@@ -75,7 +53,7 @@ Qui quae esse aspernatur fugit possimus. Quam sed molestiae temporibus. Eum perf
 
 Atque eos laudantium. Optio odit aspernatur consequuntur corporis soluta quidem sunt aut doloribus. Laudantium assumenda commodi.
 
-### Clearing the cache
+### Individual assignments
 
 Vel aut velit sit dolor aut suscipit at veritatis voluptas. Laudantium tempore praesentium. Qui ut voluptatem.
 

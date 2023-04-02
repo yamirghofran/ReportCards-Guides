@@ -17,9 +17,6 @@ This is the name of the subject like "Mathematics" or "Physics".
 
 If you want to use ReportCards.ai for grading and commenting individual assignments, this would be the name of the assignment.
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-
 ---
 
 ## Editing an Existing Subject
@@ -38,6 +35,8 @@ To delete a subject that you have already created, navigate to the subject you w
 ## Adding a New Criterion
 
 Here, you can add a criterion to your subject that you will use later to grade or provide feedback to your students.
+
+To add a criterion, navigate to the "Subjects" tab in the sidebar on the left and click on the subject that you want to add the criterion to. On the subject page, simply click on the "New Criterion" button and enter the criterion information that you want to create.
 
 ### Name
 
@@ -59,27 +58,24 @@ There are 3 types of criteria that you can create for your subjects: Quantitativ
 
 #### Quantitative Criterion
 
+Quantitative criteria are criteria that you will grade by entering a number. If you add parameters to your quantitative criterion, when grading it, you can use the artificial intelligence to generate a comment based on the numerical grade you enter and the descriptor of the corresponding parameter to that numerical grade. You can also only enter a numerical grade, without generating or writing a comment (for more info, check out the grading section of this guide).
+
+To create a quantitative criterion, simply write the name of the criterion, the description, and select "Quantitative" in the dropdown menu for criterion type. Be as detailed and thorough as possible when writing the description to get better comment suggestions from the artificial intelligence when grading students.
+
+After selecting "Quantitative" for the criterion type, an "Add Parameter" button will appear. By clicking this button, you can add parameters to your quantitative criterion. For each parameter, you can provide a minimum and maximum value to determine a range of grades. Then, you can write descriptors for that grade range in the text input on the right. When grading this criterion, the artificial intelligence will write a comment for the student based on the descriptors you wrote in the parameter that corresponds to the numerical grade you enter for the student. Therefore, it's very important to write the descriptors in detail.
+
 #### Qualitative Criterion
 
+You can use qualitative criteria to grade students with a letter or a word such as "Consistent" or "Satisfactory" when the criterion can't be quantified with a number.
+
 #### Comment Topic Criterion
+
+You can use a comment topic criterion to write extensive feedback, in a paragraph or more, regarding a criterion for the student. This would be used in criteria that need more explanation and detailed feedback such as suggestions. To avoid writing a comment for every student from scratch, you can also get help from the artificial intelligence to write a comment based on the criterion name, description, and a sentiment (e.g. very positive) that you choose when grading that criterion for the student.
+
+More information regarding the A.I. in the grading section of this guide.
 
 ---
 
 ## Editing a Criterion
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
-
-
-## Editing a Criterion
+To edit a criterion, simply hover your mouse on the criterion that you want to edit and click the pencil icon that appears on the left side of the criterion name. At this point, you can edit the criterion name, description, type, and the parameters if you have selected the criterion type to be quantitative.
