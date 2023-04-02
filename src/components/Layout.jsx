@@ -121,9 +121,9 @@ function Header({ navigation }) {
           </div>
         </Link>
       </div>
-      <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
+      {/* <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
         <Search />
-      </div>
+      </div> */}
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <Link href="https://github.com" className="group" aria-label="GitHub">
