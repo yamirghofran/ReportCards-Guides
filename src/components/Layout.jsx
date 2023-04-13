@@ -41,7 +41,8 @@ const navigation = [
       { title: 'New Feature: AI Report Card Comments', href: '/docs/nf-ai-comments' },
       { title: 'New Feature - Quantitative Criterion Parameters + A.I.', href: '/docs/nf-ai-params'},
       { title: 'New Feature: Change Profile Name', href: '/docs/nf-update-name' },
-      { title: 'Bug Fix: Fix initial login error', href: '/docs/bf-initial-login-error'}
+      { title: 'Bug Fix: Fix initial login error', href: '/docs/bf-initial-login-error'},
+      { title: 'New Feature: Export Grades & Comments to CSV', href: '/docs/nf-export-csv'}
     ]
   },
   /* {
