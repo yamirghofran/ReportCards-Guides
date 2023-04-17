@@ -42,7 +42,10 @@ const navigation = [
       { title: 'New Feature - Quantitative Criterion Parameters + A.I.', href: '/docs/nf-ai-params'},
       { title: 'New Feature: Change Profile Name', href: '/docs/nf-update-name' },
       { title: 'Bug Fix: Fix initial login error', href: '/docs/bf-initial-login-error'},
-      { title: 'New Feature: Export Grades & Comments to CSV', href: '/docs/nf-export-csv'}
+      { title: 'New Feature: Export Grades & Comments to CSV', href: '/docs/nf-export-csv'},
+      { title: 'New Feature: Additional Emails for Students', href: '/docs/nf-students-additional-emails'},
+      { title: 'New Feature: Qualitative Criterion Grade Options', href: '/docs/nf-qualitative-grade-options' },
+      { title: 'New Feature: Edit Student', href: '/docs/nf-edit-student' }
     ]
   },
   /* {
@@ -127,9 +130,9 @@ function Header({ navigation }) {
       </div> */}
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com" className="group" aria-label="GitHub">
+        {/* <Link href="https://github.com" className="group" aria-label="GitHub">
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
-        </Link>
+        </Link> */}
       </div>
     </header>
   )
