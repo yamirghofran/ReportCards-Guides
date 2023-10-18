@@ -46,6 +46,7 @@ const navigation = [
       { title: 'New Feature: Additional Emails for Students', href: '/docs/nf-students-additional-emails'},
       { title: 'New Feature: Qualitative Criterion Grade Options', href: '/docs/nf-qualitative-grade-options' },
       { title: 'New Feature: Edit Student', href: '/docs/nf-edit-student' }
+      { title: 'Pricing Reduction', href: '/docs/nf-pricing-update-0' }
     ]
   },
   {
