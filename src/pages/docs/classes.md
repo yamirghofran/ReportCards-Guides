@@ -4,6 +4,7 @@ description: Create and configure the classes you teach.
 ---
 
 Learn how to create, edit, and add students to your classes in ReportCards.ai
+{% video videoId="tHz9tZTNX08" %} {% /video %}
 
 ---
 

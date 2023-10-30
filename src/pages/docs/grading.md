@@ -4,6 +4,7 @@ description: Learn about the grading process when using ReportCards.ai
 ---
 
 Learn how to take advantage of ReportCards.ai features to grade and comment on students faster and easier than ever with suggestions from artificial intelligence.
+{% video videoId="pkVfnEPsyMI" %} {% /video %}
 
 ---
 

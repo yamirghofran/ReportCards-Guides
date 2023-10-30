@@ -4,6 +4,7 @@ description: Create and set up report cards for your classes.
 ---
 
 Here you will learn how to create and manage report cards for your classes.
+{% video videoId="pkVfnEPsyMI" %} {% /video %}
 
 ---
 

@@ -5,6 +5,7 @@ description: Quidem magni aut exercitationem maxime rerum eos.
 
 The first step when starting to use ReportCards.ai is creating and configuring the subjects that you teach. In this part, you can also add criteria to your subjects which you will later use to grade your students.
 
+{% video videoId="lj8fr1jF4yc"  %} {% /youtubeVideo %}
 ---
 
 ## Creating a New Subject
